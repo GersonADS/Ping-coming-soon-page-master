@@ -19,10 +19,14 @@ html{
 }
 
 .main header {
-    padding: 40px;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
+
 .main .message h1 {
     font-size:34pt;
+    line-height: 3.7rem;
     font-weight: 700;
 }
 .main .message .title{
@@ -72,13 +76,12 @@ html{
 .icons{
     display: flex;
     justify-content:center;
-    /* background-color:yellow; */
     gap:10px;
 }
 
 .icone{
     padding: .2rem;
-    border: 1px solid hsl(0, 0%, 78%);
+    border: 1px solid hsla(0, 0%, 78%, 0.307);
     border-radius:100%;
     width: 32pt;
 }
@@ -97,6 +100,6 @@ html{
 }
 .rodape p {
     font-size: 12pt;
-    line-height: 4rem;
+    line-height: 3rem;
     color: hsl(0, 0%, 78%);
 }
