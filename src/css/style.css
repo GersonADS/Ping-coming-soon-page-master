@@ -3,29 +3,23 @@ html{
     font-size: 20px;
 }
 
+.principal{
+    display: flex;
+    min-width: 100vw;
+    height: 100vh;
+}
+
 .main{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: auto;
     width: 650px;
     min-height: 100%;
-    background-color: antiquewhite;
 }
 
 .main header {
     padding: 40px;
-    background-color: aqua;
-}
-.main header img {
-    /* width: 3.8rem; */
-}
-.main .message {
-    background-color:brown;
 }
 .main .message h1 {
     font-size:34pt;
@@ -36,13 +30,73 @@ html{
     font-weight:300;
 }
 
-.imagem{
-    width: 600px;
+.controlers{
+    position: relative;
+    left: 0;
+    padding: 50px;
 }
 
-.attribution_footer{
+
+.main .inputs{
     position: absolute;
-    z-index: 1;
-    bottom: 0;
-    background-color: aqua;
+    top:1.3rem;
+    left: 0;
+}
+
+.main #_email {
+    opacity: .4;
+    border: 2px solid hsl(0, 0%, 78%);
+    padding: .7rem;
+    border-radius: 1rem;
+    width: 430px;
+    margin-right: 10px;
+    left: 0;
+}
+
+.btn {
+    width: 8.5rem;
+    padding: .7rem;
+    background-color: hsl(223, 87%, 63%);   
+    color: white;
+    font-weight: 400;
+    border: 1px solid hsl(223, 87%, 63%);
+    box-shadow: 0 0 5px hsl(223, 87%, 63%);
+    border-radius: 1rem; 
+}
+
+.imagem{
+    margin-top: 2rem;
+    width: 630px;
+}
+
+.icons{
+    display: flex;
+    justify-content:center;
+    /* background-color:yellow; */
+    gap:10px;
+}
+
+.icone{
+    padding: .2rem;
+    border: 1px solid hsl(0, 0%, 78%);
+    border-radius:100%;
+    width: 32pt;
+}
+
+.icons .fa-brands {
+    font-size: 1rem;
+    color: hsl(223, 87%, 63%);
+}
+
+.rodape{
+    display: flex;
+    margin-top:4rem;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.rodape p {
+    font-size: 12pt;
+    line-height: 4rem;
+    color: hsl(0, 0%, 78%);
 }
