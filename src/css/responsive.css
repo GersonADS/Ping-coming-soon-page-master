@@ -1,24 +1,41 @@
 @media (max-width: 665px){
 
-    .controlers{
-        background-color: brown;
+    .main{  
+        width: 350px;
     }
-
+    
+    .main .message h1 {
+        font-size: 1.3rem;
+    }
+    .main .message p {
+        font-size: .7rem;
+    }
+    
     .inputs{
         display: flex;
         flex-direction: column;
         align-items:center;
-        background-color: aqua;
         width:100%;
     }
     
+    .main #_email{
+        width:100%;
+        margin-left: 10px;
+    }
+
+    .imagem{
+        margin-left: -20px;
+        margin-top: 5rem;
+        width: 395px;
+    }
 
     /*arrumar tamanho dos botões*/
     .btn{
-        flex-shrink: 1;
         margin-top: .5rem;
-        width: 430px;
-        flex-shrink: 1;
+        width: 100%;
+    }
+    .icons {
+        margin-top: 2rem;
     }
 
 }
