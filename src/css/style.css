@@ -1,16 +1,48 @@
 html{
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
 }
 
 .main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 650px;
+    min-height: 100%;
     background-color: antiquewhite;
+}
+
+.main header {
+    padding: 40px;
+    background-color: aqua;
+}
+.main header img {
+    /* width: 3.8rem; */
+}
+.main .message {
+    background-color:brown;
+}
+.main .message h1 {
+    font-size:34pt;
+    font-weight: 700;
+}
+.main .message .title{
+    color: hsl(0, 0%, 59%);
+    font-weight:300;
 }
 
 .imagem{
     width: 600px;
+}
+
+.attribution_footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background-color: aqua;
 }
