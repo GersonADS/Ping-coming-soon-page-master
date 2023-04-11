@@ -70,6 +70,10 @@ html{
     border-radius: 1rem; 
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
 .imagem{
     margin-top: 2rem;
     width: 630px;
@@ -86,6 +90,16 @@ html{
     border: 1px solid hsla(0, 0%, 78%, 0.307);
     border-radius:100%;
     width: 32pt;
+}
+
+.icone:hover{
+    cursor: pointer;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+
+.icone:hover .fa-brands{
+    color: white;
 }
 
 .icons .fa-brands {
