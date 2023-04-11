@@ -55,12 +55,13 @@ html{
 }
 
 .confirmation p {
+    margin-top: 5px;
     margin-left: .9rem;
 }
 
 .main #_email {
     opacity: .4;
-    border: 2px solid hsl(0, 0%, 78%);
+    border: 1px solid hsl(0, 0%, 78%);
     padding: .7rem;
     border-radius: 1rem;
     width: 430px;
@@ -68,13 +69,13 @@ html{
     left: 5px;
 }
 
-
 .btn {
     width: 8.5rem;
+    height: 2.3rem;
     padding: .7rem;
-    background-color: hsl(223, 87%, 63%);   
     color: white;
     font-weight: 400;
+    background-color: hsl(223, 87%, 63%);   
     border: 1px solid hsl(223, 87%, 63%);
     box-shadow: 0 0 5px hsl(223, 87%, 63%);
     border-radius: 1rem; 
